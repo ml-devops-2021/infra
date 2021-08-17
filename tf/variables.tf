@@ -1,14 +1,14 @@
-variable "deployment_name" {
-  description = "DEPLOYMENT_NAME"
+variable "gcp_project_id" {
+  description = "GCP_PROJECT_ID"
   type = string
 }
 
-variable "image" {
-  description = "IMAGE"
+variable "gke_cluster" {
+  description = "GKE_CLUSTER"
   type = string
 }
 
-variable "bucket_terraform" {
-  description = "Nombre del bucket para el state de Terraform"
+variable "gke_zone" {
+  description = "GKE_ZONE"
   type = string
 }
